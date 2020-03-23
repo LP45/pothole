@@ -1,0 +1,74 @@
+/* .container{
+    display:flex;  
+     flex-direction: column; 
+     align-items: center;
+     justify-content: space-evenly;
+} */
+.navigation {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-color: orange;
+    border-style: solid;
+    border:2px;
+    
+}
+.navigation > .home{
+    /* display: flex; */
+}
+.navigation > .addnew{
+   /* display: flex; */
+    
+    padding-bottom: 25px;;
+    background-color: orangered;
+    /* margin-left: auto; */
+}
+.navigation > .map{
+    /* display: flex; */
+    background-color: orangered;
+ 
+    padding-bottom: 15px;
+    /* margin-left: auto; */
+}
+.ph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.pothole2{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width:130px;
+}
+.pothole{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 130px;
+}
+.potholesand{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width:130px;
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+}
+.Maps{
+    display: flex;
+    height: 200px;
+    width: 80px;
+}
+/* .pothole2{
+background-image: url("../images/pothole1.jpg");
+}
+
+.pothole{
+    background-image: url("../images/pothole2.jpg");
+}
+.potholesand{
+    background-image: url("../images/pothole3.jpg");
+} */
