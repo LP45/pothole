@@ -1,35 +1,45 @@
-/* .container{
+.container{
     display:flex;  
-     flex-direction: column; 
-     align-items: center;
-     justify-content: space-evenly;
-} */
+     flex-direction: column;
+     
+}
 .navigation {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
+    
+    /* border:3px solid gold; */
+    /* justify-content: space-evenly; */
+    
+}
+.navigation .nav1 a, .navigation .nav2 a, .navigation .map{
+    /* display: flex; */
     color: white;
-    border-color: orange;
-    border-style: solid;
-    border:2px;
+    background-color: red;
+    border: 3px solid gold;
+    /* float:left; */
+    /* justify-content: flex-start; */
+}
+.nav1{
+    display: flex;
+    justify-content: flex-start; 
+}
+.nav1, .nav2{
     
+    width: 50%;
 }
-.navigation > .home{
-    /* display: flex; */
+
+.nav2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3px;
 }
-.navigation > .addnew{
-   /* display: flex; */
-    
-    padding-bottom: 25px;;
-    background-color: orangered;
-    /* margin-left: auto; */
+.nav3{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 3px;
 }
-.navigation > .map{
-    /* display: flex; */
-    background-color: orangered;
- 
-    padding-bottom: 15px;
-    /* margin-left: auto; */
-}
+
 .ph{
     display: flex;
     flex-direction: row;
@@ -38,37 +48,36 @@
 .pothole2{
     display: flex;
     flex-direction: column;
-    height: 130px;
-    width:130px;
+    height: 230px;
+    width:230px;
+    background-repeat: no-repeat;
 }
 .pothole{
     display: flex;
     flex-direction: column;
-    height: 130px;
-    width: 130px;
+    height: 230px;
+    width: 230px;
+    background-repeat: no-repeat;
 }
 .potholesand{
     display: flex;
     flex-direction: column;
-    height: 130px;
-    width:130px;
-}
-.m1{
-    display: flex;
-    flex-direction: column;
-}
-.Maps{
-    display: flex;
-    height: 200px;
-    width: 80px;
-}
-/* .pothole2{
-background-image: url("../images/pothole1.jpg");
+    height: 230px;
+    width:230px;
+    background-repeat: no-repeat;
 }
 
-.pothole{
-    background-image: url("../images/pothole2.jpg");
+.Maps{
+    display: flex;
+    justify-content: center;
+    
+    
 }
-.potholesand{
-    background-image: url("../images/pothole3.jpg");
-} */
+.Maps > img{
+    width: 70vw;
+    height: 40vw;
+}
+h1 > .MP{
+    justify-content: center;
+}
+
